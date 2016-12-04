@@ -108,5 +108,6 @@
     "ghooks": {
       "pre-commit": "echo Running eslint before commit && npm run eslint-internal -loglevel silent"
     }
-  }
+  },
+    "typings": "./src/index.d.ts"
 }
